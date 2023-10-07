@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-liv&22f0m-#1@gz$4=c9#%2&e$)_dqg#8f-k)tpxco2$@fs)j5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ 'boutique-ado-student-9eba64bd7f42.herokuapp.com','8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu104.gitpod.io', '8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu105.gitpod.io']
+ALLOWED_HOSTS = [ '.herokuapp.com','8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu104.gitpod.io', '8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu105.gitpod.io']
 CSRF_TRUSTED_ORIGINS = ['https://8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu104.gitpod.io', 'https://8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu105.gitpod.io']
 
 # Application definition
