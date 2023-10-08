@@ -25,8 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-# 'DEVELOPMENT' in os.environ
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = [ 'boutique-ado-student.herokuapp.com', 'localhost', 'boutique-ado-student-9eba64bd7f42.herokuapp.com']
 CSRF_TRUSTED_ORIGINS = ['https://8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu104.gitpod.io', 'https://8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu105.gitpod.io']
