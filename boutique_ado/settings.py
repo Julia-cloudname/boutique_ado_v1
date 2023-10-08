@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = [ 'boutique-ado-student.herokuapp.com', 'localhost', 'boutique-ado-student-9eba64bd7f42.herokuapp.com']
+ALLOWED_HOSTS = [ 'boutique-ado-student.herokuapp.com', '8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu105.gitpod.io', 'boutique-ado-student-9eba64bd7f42.herokuapp.com']
 CSRF_TRUSTED_ORIGINS = ['https://8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu104.gitpod.io', 'https://8000-juliacloudn-boutiqueado-tz65jil1r1a.ws-eu105.gitpod.io']
 
 # Application definition
